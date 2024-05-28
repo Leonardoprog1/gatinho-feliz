@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Gato Feliz</title>
+    
+
+    <style>
+        body {
+    background-image: url( home.avif);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}
+header {
+    background-color: #BA55D3;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+   
+}
+.container {
+   
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.carousel {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    color:blue;
+}
+.carousel-item {
+    flex: 0 0 30%; /* Ajuste conforme necessÃ¡rio */
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.carousel-item:hover {
+    transform: scale(1.05);
+}
+footer {
+    background-color: #BA55D3;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+    </style>
+   
+</head>
+<body>
+    <header>
+        <h1>Gatinho</h1>
+    </header>
+    <div class="container">
+        <div class="carousel">
+            <div class="carousel-item">
+                <h3>Doações</h3>
+                <p>Faça sua contribuição para ajudar nossos gatos!</p>
+                <a href="segundap.html">Doar</a>
+               
+            </div>
+            <div class="carousel-item">
+                <h3>Adoções</h3>
+                <p>Conheça nossos gatos disponíveis para adoção.</p>
+                <a href="terceirat.html">Adotar</a>
+            </div>
+            <div class="carousel-item">
+                <h3>Fotos dos Gatos</h3>
+                <p>Veja fotos dos nossos gatos felizes.</p>
+                <a href="quartapg.html">Ver Fotos</a>
+            </div>
+            <!-- Adicione mais itens conforme necessário -->
+        </div>
+    </div>
+    <footer>
+        <h1>Feliz &copy;</h1>
+    </footer>
+</body>
+</html>

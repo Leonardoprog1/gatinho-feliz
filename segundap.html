@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doações</title>
+    <link rel="stylesheet" href="segundapg.css">
+    <style>
+        body{
+    background-image: url( foto2.webp );
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+#header h1{
+    background-color: #BA55D3;
+    padding: 20px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: white;
+   
+}
+
+
+#container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    height: 100vh;
+    text-align: left;
+   
+   
+   
+}
+
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>Doações</h1>
+    </header>
+<div id="container">
+    <main id="main">
+        <form name="form1" method="post" action="grava.jsp"> <br>
+           
+            <h1> Doações: </h1> <br> <br>
+           <h1> <input type="radio" name="pgto" value="v">  Ração </h1>  <br><br> <br>
+           <h1> <input type="radio" name="pgto" value="3">  Areia </h1> <br><br> <br>
+           <h1> <input type="radio" name="pgto" value="6">  Pix </h1>
+           
+        </form>
+
+
+    </main>
+</div>
+</body>
+</html>
